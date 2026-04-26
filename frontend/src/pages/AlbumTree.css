@@ -1,0 +1,81 @@
+.tree-container {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: sans-serif;
+}
+
+.tree-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+.tree-container input[type="text"] {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: calc(100% - 22px);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.tree-container button {
+  margin-top: 10px;
+  padding: 10px 16px;
+  font-size: 14px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.tree-container button:hover {
+  background-color: #005fa3;
+}
+
+.tree-container ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.tree-container li {
+  margin: 8px 0;
+  line-height: 1.6;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+
+
+.tree-container li span {
+  cursor: pointer;
+}
+
+.tree-container .album-name {
+  font-weight: bold;
+}
+
+
+
+
+.tree-container .shared-label {
+  font-size: 12px;
+  font-style: italic;
+  color: gray;
+}
+
+.tree-container .owner-icon {
+  color: green;
+  margin-left: 5px;
+}
