@@ -1,8 +1,8 @@
 # Fotoalbum (autor: Maksym Taran)
 
-## 📁 Struktura projektu
+## 📁 Structure
 
 - `frontend/` — React aplikace (frontend)
-- `server/` — Node.js/Express API (backend)
-- Databáze: MongoDB
+- `backend/` — Node.js/Express API (backend)
+- Database: MongoDB
 
